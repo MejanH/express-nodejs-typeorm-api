@@ -1,0 +1,9 @@
+{
+  "type": "sqlite",
+  "host": "localhost",
+  "port": 5000,
+  "database": "express-typeorm",
+  "entities": ["src/entity/*.js"],
+  "logging": true,
+  "synchronize": true
+}
